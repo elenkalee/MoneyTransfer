@@ -13,7 +13,7 @@
 
 
 Тестирование функции перевода денежных средств проводилось в IntelliJ IDEA.
-
+```java
     public class Main {
     public static void main(String[] args) {  
         int balance = 2_000_000_000;
@@ -21,6 +21,7 @@
         int total = balance + transfer;
         System.out.println(total);
     }
+````
  
 Ожидаемый результат:
 2500000000
